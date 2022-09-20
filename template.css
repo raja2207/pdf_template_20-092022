@@ -1,0 +1,191 @@
+.a4sheet{
+    height: 297mm;
+    width: 210mm;
+    border: 2px solid gray;
+}
+.outer_box{
+    height: 277mm;
+    width: 190mm;
+    border: 2px solid ; 
+    margin: auto;
+    margin-top: 10mm;       
+}
+.header_box{
+    height: 70mm;
+    /* border: 2px solid ; */
+    width: 190mm;
+}
+.header_first_box{
+    height: 35mm;
+    width: 190mm;
+    border-right: 2px solid ;
+    position: absolute;
+}
+.addressbox{
+    height: 35mm;
+    width: 105mm;
+    padding-left: 10px;
+  /* border: 2px solid red; */
+}
+.logobox{
+    height: 35mm;
+    width: 72mm;
+    border-left: 2px solid;
+    /* border: 2px solid; */
+    position: relative;
+    top: -43mm;
+    left: 118mm;
+}
+/* .header_second_box{
+    height: 35mm;
+    width: 190mm;
+    border: 2px solid black;
+} */
+.toaddressbox{
+    height: 35mm;
+    width: 116mm;
+    border-top: 2px solid;
+    position: relative;
+    top: -44mm;
+    padding-left: 10px;
+}
+.podetails{
+    height: 35mm;
+    width: 72mm;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    position: relative;
+    top: -79mm;
+    left: 118mm;
+}
+.fooder_box{
+    height: 33mm;
+    width: 190mm;
+    /* border: 2px solid red ; */
+    position: relative;
+    top:10px;
+}
+.fooder_leftbox{
+    height: 33mm;
+    width: 95mm;
+    /* border: 2px solid ; */
+    position: relative;
+    /* top: 3px; */
+}
+.fooder_rightbox{
+    height: 33mm;
+    width: 95mm;
+    border-left: 2px solid ;
+    position: relative;
+    top: -37mm;
+    left: 95mm;
+
+}
+/* .box{
+    height: 7.5mm;
+    width: 100%;
+    border: 2px solid ;
+} */
+.allbox{
+    height: 30mm;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+    /* top: 0mm; */
+}
+.box_one{
+    height: 7.7mm;
+    width: 100%;
+    border-bottom: 2px solid ;
+    position: relative;
+}
+.box_two{
+    height: 7.7mm;
+    width: 100%;
+    /* border: 2px solid ; */
+    position: relative;
+}
+.box_three{
+    height: 7.7mm;
+    width: 100%;
+    border-bottom: 2px solid ;
+    border-top: 2px solid ;
+    position: relative;
+}
+.box_four{
+    height: 7.7mm;
+    width: 100%;
+    border-bottom: 2px solid ;
+    position: relative;
+}
+/* .body_header{
+    height: 6.7mm;
+    width: 100%;
+    border: 2px solid brown;
+} */
+th{
+    border: 2px solid;
+    border-collapse: collapse;
+    height: 6.7mm;
+}
+table, th, td {
+    border-collapse: collapse;
+
+}
+tr td{
+    border: 2px solid;
+    border-collapse: collapse;
+    height: 132mm;
+}
+span{
+    font-size: 11px;
+}
+#email_id{
+    position: relative;
+    top: -45px;
+    left: 10px;
+    font-size: 12px;
+}
+#gst{
+    position: relative;
+    top: -40px;
+    left: 10px;
+}
+h5 {
+    margin: unset;
+}
+#china{
+    position: relative;
+    top: 15px;
+}
+#toemailid{
+    position: relative;
+    top: 15px;
+}
+.po1{
+    height: 7.9mm;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.po2{
+    height: 7.9mm;
+    width: 100%;
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+}
+.po3{
+    height: 7.9mm;
+    width: 100%;
+    border-bottom: 2px solid ;
+}
+.po4{
+    height: 7.9mm;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.podetails .po {
+    padding-top: 2px;
+}
+body{
+    font-size: 12px;
+}
