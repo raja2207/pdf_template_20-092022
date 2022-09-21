@@ -1,191 +1,322 @@
-.a4sheet{
-    height: 297mm;
-    width: 210mm;
-    border: 2px solid gray;
+* {
+    margin:0; 
+    padding:0; 
+    text-indent:0; 
 }
-.outer_box{
-    height: 277mm;
-    width: 190mm;
-    border: 2px solid ; 
-    margin: auto;
-    margin-top: 10mm;       
+.box1{
+    width:290pt;
+    border:2pt solid;
 }
-.header_box{
-    height: 70mm;
-    /* border: 2px solid ; */
-    width: 190mm;
+.fullbox{
+    border-collapse:collapse;
+    margin-left:6.125pt;
 }
-.header_first_box{
-    height: 35mm;
-    width: 190mm;
-    border-right: 2px solid ;
-    position: absolute;
-}
-.addressbox{
-    height: 35mm;
-    width: 105mm;
-    padding-left: 10px;
-  /* border: 2px solid red; */
-}
-.logobox{
-    height: 35mm;
-    width: 72mm;
-    border-left: 2px solid;
-    /* border: 2px solid; */
-    position: relative;
-    top: -43mm;
-    left: 118mm;
-}
-/* .header_second_box{
-    height: 35mm;
-    width: 190mm;
-    border: 2px solid black;
-} */
-.toaddressbox{
-    height: 35mm;
-    width: 116mm;
-    border-top: 2px solid;
-    position: relative;
-    top: -44mm;
-    padding-left: 10px;
+.header1{
+    padding-left: 4pt;
+    text-indent: 0pt;
+    line-height: 11pt;
+    text-align: left;
 }
 .podetails{
-    height: 35mm;
-    width: 72mm;
-    border-top: 2px solid;
-    border-left: 2px solid;
+    width:250pt;    
+    border: 2pt solid;
+}
+.email{
+     color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 9pt;
+}
+.left_header{
+    padding-top: 8pt;
+    padding-left: 59pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.address2{
+    padding-top: 4pt;
+    padding-left: 4pt;
+    padding-right: 103pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.address3{
+    padding-left: 4pt;
+    text-indent: 0pt;
+    line-height: 10pt;
+    text-align: left;
+}
+#logoimg{
+    position: relative; 
+    left: 100pt;
+}
+.logobox{
+    padding-left: 71pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.tr1{
+    height:98pt;
+}
+.tr2{
+    height:23pt;
+}
+.tr3{
+    height:20pt;
+}
+.tr4{
+    height:397pt;
+}
+.tr5{
+    height:18pt;
+}
+.tr6{
+    height:78pt;
+}
+.box2{
+    padding-top: 1pt;
+    padding-left: 4pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.box3{
+    padding-top: 5pt;
+    padding-left: 4pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.box4{
+    padding-left: 4pt; 
+    text-indent: 0pt;
+    text-align: left;
+}
+.box5{
+    width:40pt;
+    border: 2pt solid;
+}
+.box6{
+    width:225pt;
+    border: 2pt solid;
+}
+.box7{
+    width:60pt;
+    border:2pt solid;
+}
+.box8{
+    width:55pt;
+    border:2pt solid;    
+}
+.box9{
+    width:75pt;
+    border:2pt solid;    
+}
+.box10{
+    width:85pt;
+    border:2pt solid;   
+}
+.box11{
+    width:540pt;
+    border:2pt solid;  
+}
+.smallbox1{
+    padding-top: 3pt;
+    padding-left: 8pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+#signimg{
     position: relative;
-    top: -79mm;
-    left: 118mm;
+    left:200pt;
+    top: 15pt;
 }
-.fooder_box{
-    height: 33mm;
-    width: 190mm;
-    /* border: 2px solid red ; */
+.smallbox2{
+    padding-top: 3pt;
+    padding-left: 77pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox3{
+    padding-top: 3pt;
+    padding-left: 19pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox4{
+    padding-top: 3pt;
+    padding-left: 15pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox5{
+    padding-top: 3pt;
+    padding-left: 10pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox6{
+    padding-top: 3pt;
+    padding-left: 6pt;
+    padding-right: 3pt;
+    text-indent: 0pt;
+    text-align: center;
+}
+.smallbox7{
+    padding-top: 5pt;
+    padding-left: 39pt;
+    text-indent: 0pt;
+    text-align: left;    
+}
+.smallbox8{
+    padding-left: 42pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox9{
+    padding-left: 29pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox10{
+    padding-right: 2pt;
+    text-indent: 0pt;
+    text-align: right;
+}
+.smallbox11{
+    padding-top: 5pt;
+    padding-left: 6pt;
+    text-indent: 0pt;
+    text-align: center;
+}
+.smallbox12{
+    text-indent: 0pt;
+    text-align: left;
+}
+.smallbox13{
+    width:380pt;
+    border:2pt solid;
+}
+.smallbox14{
+    width:270pt;
+    border:2pt solid;
+}
+.smallbox15{
+    padding-left: 109pt;
+    text-indent: 0pt;
+    line-height: 11pt;
+    text-align: left;
+}
+.smallbox16{
+    padding-left: 149pt;
+    text-indent: 0pt;
+    text-align: left;   
+}
+.s1 { 
+    color: black; 
+    font-family:"Times New Roman", serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 10pt; 
+}
+ .s2 { 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 9pt; 
+}
+ .s3 { 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 9pt; 
+}
+ .s4 { 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 9pt; 
+}
+ .s5 { 
+    color: black; 
+    font-family:"Times New Roman", serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 15pt; 
+}
+ .s6 { 
+    color: #131313; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 10pt; 
+}
+ .s7 {
+    color: #131313; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight:normal; 
+    text-decoration: none; 
+    font-size: 9pt; 
+}
+ .s8 { 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 8pt; 
+}
+ .s9 { 
+    color: black; 
+    font-family:Arial, sans-serif;
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 7pt; 
+}
+ .s10 { 
+    color: black; 
+    font-family:Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 10pt; 
+}
+table, tbody {
+    vertical-align: top;
+    overflow: visible; 
+}
+.address1{
+    padding-top: 1pt;
+    padding-left: 4pt;
+    text-indent: 0pt;
+    line-height: 115%;
+    text-align: left;
+}
+.gst{
+    padding-top: 4pt;
+    padding-left: 4pt;
+    text-indent: 0pt;
+    text-align: left;
+}
+p.s3.smallbox16 {
     position: relative;
-    top:10px;
+    top: 11pt;
+    left: 30pt;
+    
 }
-.fooder_leftbox{
-    height: 33mm;
-    width: 95mm;
-    /* border: 2px solid ; */
+p.s10.smallbox15 {
     position: relative;
-    /* top: 3px; */
-}
-.fooder_rightbox{
-    height: 33mm;
-    width: 95mm;
-    border-left: 2px solid ;
-    position: relative;
-    top: -37mm;
-    left: 95mm;
-
-}
-/* .box{
-    height: 7.5mm;
-    width: 100%;
-    border: 2px solid ;
-} */
-.allbox{
-    height: 30mm;
-    width: 100%;
-    /* border: 2px solid; */
-    position: relative;
-    /* top: 0mm; */
-}
-.box_one{
-    height: 7.7mm;
-    width: 100%;
-    border-bottom: 2px solid ;
-    position: relative;
-}
-.box_two{
-    height: 7.7mm;
-    width: 100%;
-    /* border: 2px solid ; */
-    position: relative;
-}
-.box_three{
-    height: 7.7mm;
-    width: 100%;
-    border-bottom: 2px solid ;
-    border-top: 2px solid ;
-    position: relative;
-}
-.box_four{
-    height: 7.7mm;
-    width: 100%;
-    border-bottom: 2px solid ;
-    position: relative;
-}
-/* .body_header{
-    height: 6.7mm;
-    width: 100%;
-    border: 2px solid brown;
-} */
-th{
-    border: 2px solid;
-    border-collapse: collapse;
-    height: 6.7mm;
-}
-table, th, td {
-    border-collapse: collapse;
-
-}
-tr td{
-    border: 2px solid;
-    border-collapse: collapse;
-    height: 132mm;
-}
-span{
-    font-size: 11px;
-}
-#email_id{
-    position: relative;
-    top: -45px;
-    left: 10px;
-    font-size: 12px;
-}
-#gst{
-    position: relative;
-    top: -40px;
-    left: 10px;
-}
-h5 {
-    margin: unset;
-}
-#china{
-    position: relative;
-    top: 15px;
-}
-#toemailid{
-    position: relative;
-    top: 15px;
-}
-.po1{
-    height: 7.9mm;
-    width: 100%;
-    /* border: 2px solid red; */
-}
-.po2{
-    height: 7.9mm;
-    width: 100%;
-    border-top: 2px solid ;
-    border-bottom: 2px solid ;
-}
-.po3{
-    height: 7.9mm;
-    width: 100%;
-    border-bottom: 2px solid ;
-}
-.po4{
-    height: 7.9mm;
-    width: 100%;
-    /* border: 2px solid red; */
-}
-.podetails .po {
-    padding-top: 2px;
-}
-body{
-    font-size: 12px;
+    left: 25pt;
+    top: 5pt;
 }
