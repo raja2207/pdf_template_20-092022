@@ -4,7 +4,7 @@
     text-indent:0; 
 }
 .box1{
-    width:290pt;
+    width:210pt;
     border:2pt solid;
 }
 .fullbox{
@@ -50,7 +50,7 @@
 }
 #logoimg{
     position: relative; 
-    left: 100pt;
+    left: 70pt;
 }
 .logobox{
     padding-left: 71pt;
@@ -73,7 +73,7 @@
     height:18pt;
 }
 .tr6{
-    height:78pt;
+    height:82pt;
 }
 .box2{
     padding-top: 1pt;
@@ -312,11 +312,15 @@ table, tbody {
 p.s3.smallbox16 {
     position: relative;
     top: 11pt;
-    left: 30pt;
+    left: 15pt;
     
 }
 p.s10.smallbox15 {
     position: relative;
-    left: 25pt;
+    left: 10pt;
     top: 5pt;
+}
+table.fullbox {
+    position: relative;
+    top: 20pt;
 }
