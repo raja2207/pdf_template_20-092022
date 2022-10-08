@@ -50,7 +50,7 @@
 }
 #logoimg{
     position: relative; 
-    left: 70pt;
+    left: 90pt;
 }
 .logobox{
     padding-left: 71pt;
@@ -98,7 +98,7 @@
 }
 .box6{
     width:225pt;
-    border: 2pt solid;
+    border: 2pt solid;    
 }
 .box7{
     width:60pt;
@@ -128,7 +128,7 @@
 }
 #signimg{
     position: relative;
-    left:200pt;
+    left:70pt;
     top: 15pt;
 }
 .smallbox2{
@@ -191,7 +191,7 @@
 }
 .smallbox12{
     text-indent: 0pt;
-    text-align: left;
+    text-align: center;
 }
 .smallbox13{
     width:380pt;
@@ -323,4 +323,17 @@ p.s10.smallbox15 {
 table.fullbox {
     position: relative;
     top: 20pt;
+}
+.textlinecutter{
+    max-width: 225pt;
+    word-wrap: break-word;
+    /* border: 2px solid red; */
+}
+.textlinecutter p {
+    margin-top:20px;
+    /* border: 2px solid red */
+
+}
+.textalign{
+    text-align: left;
 }
